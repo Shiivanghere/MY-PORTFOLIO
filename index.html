@@ -15,84 +15,206 @@
     />
   </head>
   <body>
-    
-      <!-- Navbar Section -->
-      <nav class="navbar" style="position: sticky; top: 0px; z-index: 2;">
-        <div class="logo fa-brands fa-pied-piper-alt"> Portfolio</div>
-        <!-- Hidden checkbox for toggling the hamburger menu -->
-        <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
-        <label for="menu-toggle" class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-        <ul class="navbarLinks">
-          <li><a href="#section1">Home</a></li>
-          <li><a href="#section2">Skills</a></li>
-          <li><a href="#section3">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    
+    <!-- Navbar Section -->
+    <nav class="navbar" style="position: sticky; top: 0px; z-index: 2" aria-label="Main Navigation">
+      <div class="logo fa-brands fa-pied-piper-alt" aria-label="Portfolio"> Portfolio</div>
+      <!-- Hidden checkbox for toggling the hamburger menu -->
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox" aria-hidden="true" />
+      <label for="menu-toggle" class="hamburger" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="navbarLinks">
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">Skills</a></li>
+        <li><a href="#section3">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
     <!-- Content placeholder sections -->
 
-
     <!-- Section 1 Starts Here -->
 
-
-<section id="section1" class="introductionSection">
-    <div class="introductionContent">
+    <section id="section1" class="introductionSection">
+      <div class="introductionContent" aria-labelledby="about-heading">
         <div class="text-write">
-            <h2 style="text-decoration: underline;">About Me</h2>
+          <h2 style="text-decoration: underline">About Me</h2>
+          <br />
+          <br />
+          <p>
+            Hello! I am Shivang Sharma, an Electronics and Communication
+            Engineering (ECE) student at Ajay Kumar Garg Engineering College,
+            where I achieved a 9.3 SGPA in my first semester and a 9.0 SGPA in
+            my second semester. With a strong academic foundation, I am driven
+            by a passion for web development and problem-solving. My technical
+            skills span HTML, CSS, JavaScript and C++ allowing me to create
+            dynamic, interactive, and responsive web applications. I am
+            particularly focused on crafting user-centered experiences that
+            blend functionality with design, showcasing my ability to bridge
+            complex technical concepts with practical, real-world applications.
+            My journey in tech is defined by a commitment to continuous learning
+            and innovation, pushing me to take on projects that challenge my
+            skills and expand my capabilities.
+          </p>
+          <p>
+            Beyond the technical realm, I am also a dedicated taekwondo athlete
+            and an avid sports enthusiast, experiences that have taught me
+            resilience, discipline, and the value of teamwork. These qualities
+            fuel my approach to collaborative projects and ensure I bring a
+            well-rounded perspective to problem-solving. I am excited about
+            leveraging my technical skills and athletic mindset to tackle
+            real-world challenges in the tech industry. My portfolio showcases
+            projects that reflect my dedication to building impactful,
+            user-friendly solutions—like my recent HTML and CSS project, now
+            live on Vercel, which highlights my focus on clean, responsive
+            design. I look forward to connecting, learning, and creating
+            innovative solutions that make a difference.
             <br>
             <br>
-            <p>Hello! I am Shivang Sharma, an Electronics and Communication Engineering (ECE) student at Ajay Kumar Garg Engineering College, where I achieved a 9.3 SGPA in my first semester and a 9.0 SGPA in my second semester. With a strong academic foundation, I am driven by a passion for web development and problem-solving. My technical skills span HTML, CSS, JavaScript and C++ allowing me to create dynamic, interactive, and responsive web applications. I am particularly focused on crafting user-centered experiences that blend functionality with design, showcasing my ability to bridge complex technical concepts with practical, real-world applications. My journey in tech is defined by a commitment to continuous learning and innovation, pushing me to take on projects that challenge my skills and expand my capabilities.</p>
-            <p>Beyond the technical realm, I am also a dedicated taekwondo athlete and an avid sports enthusiast, experiences that have taught me resilience, discipline, and the value of teamwork. These qualities fuel my approach to collaborative projects and ensure I bring a well-rounded perspective to problem-solving. I am excited about leveraging my technical skills and athletic mindset to tackle real-world challenges in the tech industry. My portfolio showcases projects that reflect my dedication to building impactful, user-friendly solutions—like my recent HTML and CSS project, now live on Vercel, which highlights my focus on clean, responsive design. I look forward to connecting, learning, and creating innovative solutions that make a difference.</p>
+            <a href="https://www.instagram.com/shiivanghere?igsh=MXV0Nnk1c203cGFpbQ==" target="_blank" style="color: rgb(234, 88, 112); margin: 2rem; font-size: 2rem;" aria-label="Instagram Profile"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/shivang-sharma-8b8417336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="color: rgb(78, 78, 237); margin: 2rem; font-size: 2rem;" aria-label="LinkedIN Profile"><i class="fa-brands fa-linkedin"></i></a>
+          </p>
         </div>
         <div class="image-embedded">
-            <img src="./MYPHOTO2.jpg" alt="Image 1">
-            <img src="./MYPHOTO1.jpg" alt="Image 2">
+          <img src="./MYPHOTO2.jpg" alt="My Photo 1" />
+          <img src="./MYPHOTO1.jpg" alt="My Photo 2" />
         </div>
-    </div>
-</section>
+      </div>
+      <a href="mailto:sharmashivang037@gmail.com" aria-label="Send an email to Shivang"><button class="hire">Hire Me</button></a>
+    </section>
 
-<!-- Section 1 Ends Here -->
+    <!-- Section 1 Ends Here -->
 
-<!-- Section 2 Starts Here -->
+    <!-- Section 2 Starts Here -->
 
-   <!-- Section 2: Skills -->
-<section id="section2" class="skillsSection">
-    <div class="my-skills">
+    <section id="section2" class="skillsSection" aria-labelledby="skills-heading">
+      <div class="my-skills">
         <div class="text-write">
-            <h2 style="text-decoration: underline;">Skills</h2>
-            <br>
-            <br>
-            <p>I bring a well-rounded set of skills in web development, with expertise in HTML, CSS, JavaScript, and React. These foundational tools enable me to build responsive and interactive user interfaces that prioritize both functionality and design. I focus on creating seamless, user-friendly experiences, utilizing my technical skills to turn ideas into polished web applications. My ability to combine design aesthetics with robust code structure allows me to craft visually engaging and performance-optimized sites, which is further supported by my command of C++ for problem-solving and computational efficiency.</p>
-            <p>You can explore some of my recent projects, like <a href="https://task-one-sepia.vercel.app/" target="_blank" class="projects">Project 1 (a responsive landing page) </a> and <a href="https://nasa-web-app-tau.vercel.app/" target="_blank" class="projects">Project 2 (a project built using nasa api)</a> which showcase my ability to build polished, high-performance applications. I am continuously enhancing my skill set, eager to tackle complex challenges and evolve as a developer in a rapidly changing tech landscape.</p>
+          <h2 style="text-decoration: underline">Skills</h2>
+          <br />
+          <br />
+          <p>
+            I bring a well-rounded set of skills in web development, with
+            expertise in HTML, CSS, JavaScript, and React. These foundational
+            tools enable me to build responsive and interactive user interfaces
+            that prioritize both functionality and design. I focus on creating
+            seamless, user-friendly experiences, utilizing my technical skills
+            to turn ideas into polished web applications. My ability to combine
+            design aesthetics with robust code structure allows me to craft
+            visually engaging and performance-optimized sites, which is further
+            supported by my command of C++ for problem-solving and computational
+            efficiency.
+          </p>
+          <p>
+            You can explore some of my recent projects, like
+            <a
+              href="https://task-one-sepia.vercel.app/"
+              target="_blank"
+              class="projects"
+              >Project 1 (a responsive landing page)
+            </a>
+            and
+            <a
+              href="https://nasa-web-app-tau.vercel.app/"
+              target="_blank"
+              class="projects"
+              >Project 2 (a project built using nasa api)</a
+            >
+            which showcase my ability to build polished, high-performance
+            applications. I am continuously enhancing my skill set, eager to
+            tackle complex challenges and evolve as a developer in a rapidly
+            changing tech landscape.
+          </p>
         </div>
         <div class="image-embedded">
-            <img src="./SKILL-IMAGE-1.jpg" alt="Skill Section Image 1">
-            <img src="./SKILL-IMAGE-2.jpg" alt="Skill Section Image 2">
+          <img src="./SKILL-IMAGE-1.jpg" alt="Skill Section Image 1" />
+          <img src="./SKILL-IMAGE-2.jpg" alt="Skill Section Image 2" />
         </div>
-    </div>
-</section>
-
+      </div>
+    </section>
 
     <!-- Section 2 Ends Here -->
 
     <!-- Section 3 Starts Here -->
 
+    <section id="section3" aria-labelledby="projects-heading">
+      <div class="myprojects">
+        <div class="text-write">
+          <h2 style="text-decoration: underline">My Projects</h2>
+          <br />
+          <br />
+          <p>
+            <b>Projects Overview</b>
+            <br>
+            <br>
+            Throughout my journey as a developer, I have worked on a variety of projects that showcase my skills in building responsive and user-friendly web applications. From creating interactive tools to solving real-world problems, each project reflects my dedication to writing clean and functional code. Whether it is developing a notes-taking app to streamline productivity or designing an intuitive website with HTML and CSS, I have consistently focused on delivering practical and aesthetically pleasing solutions.
 
-    <section id="section3">Section 3 Content</section>
+          </p>
+          <p>
+            <b>What I Offer</b>
+            <br>
+            <br>
+            My projects are a testament to my ability to adapt and innovate. With experience in front-end development, I have built websites that emphasize simplicity and accessibility while maintaining a professional touch. I take pride in crafting responsive designs that work seamlessly across devices, ensuring a great user experience. Feel free to explore my portfolio to see my growth and expertise in web development!
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="./Screenshot 2024-11-17 195919.png"
+            alt="image-of-nasa-web-app"
+            class="images"
+          />
+          <a href="https://nasa-web-app-tau.vercel.app/" target="_blank" class="deployed-links">
+            <h3>NASA WEB APP</h3>
+          </a>
+        </div>
+        <div class="card">
+          <img
+            src="./Screenshot 2024-11-17 200039.png"
+            alt="image-of-notes-web-app"
+            class="images"
+          />
+          <a href="https://notes-web-app-hazel.vercel.app/" target="_blank" class="deployed-links">
+            <h3>NOTES APP</h3>
+          </a>
+        </div>
+        <div class="card">
+          <img
+            src="./Screenshot 2024-11-17 200106.png"
+            alt="image-of-e-commerce-design"
+            class="images"
+          />
+          <a href="https://task-one-sepia.vercel.app/" target="_blank" class="deployed-links">
+            <h3>E-COMMERCE</h3>
+          </a>
+        </div>
+      </div>
+    </section>
 
     <!-- Section 3 Ends Here -->
 
     <!-- Footer Starts Here -->
 
-
-    <footer id="contact">Contact Section</footer>
-
+    <!-- Contact Form Section -->
+<footer id="contact" class="contact-section" aria-labelledby="contact-heading">
+  <h2 style="text-decoration: underline">Contact Me</h2>
+  <form action="#" method="POST" class="contactform">
+      <div class="formname">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required aria-required="true">
+      </div>
+      <div class="formname">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required aria-required="true">
+      </div>
+      <div class="formname">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here" required aria-required="true"></textarea>
+      </div>
+      <button type="submit" class="submitbutton">Send Message</button>
+  </form>
+</footer>
     <!-- Footer Ends Here -->
   </body>
 </html>
